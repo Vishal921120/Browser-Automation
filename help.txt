@@ -1,0 +1,23 @@
+To install puppeteer = npm i puppeteer
+
+1. Puppeteer is an open-source library for Node.js that helps in automating and simplifying development by providing control over the Developers tools. 
+It allows developers to write and maintain simple and automated tests. 
+Most of the things that were done in the browser manually can be done by using puppeteer.
+
+2.Selenium WebDriver supports not only Chrome and Chromium but also Firefox, Safari, Opera, and the now-deprecated Internet Explorer. 
+Puppeteer only supports Chrome and Chromium. This plays back to their different goals. 
+Selenium is a web-UI testing library, while Puppeteer is a remote control library for Chrome.
+
+3. readFile = it is aysn means it will not wait for output and run the next line .
+   readFileSyn = it will block the code to move further until we get our output first.
+
+4. By default, Puppeteer executes the test in headless Chromium. This means if we are running a test using Puppeteer, 
+then we won't be able to view the execution in the browser. 
+To enable execution in the headed mode, we have to add the parameter: headless:false in the code.
+
+5. Read these articles for better understanding
+Easy articles: 
+* https://flaviocopes.com/puppeteer/
+* https://nitayneeman.com/posts/getting...
+
+6. Remember to make a file .gitignore and type /node_modules to avoid pushing them to github as they take so much space.
